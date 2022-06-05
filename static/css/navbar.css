@@ -1,0 +1,31 @@
+.navbar-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: .3rem;
+    border-radius: 5.1rem;
+    border-style: solid;
+    margin: 0.5rem;
+    border-color: #007bff;
+    background-color: #303235;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.dot:hover {
+    transform: translateY(-5px);
+}
+
+nav {
+    background-color: #303235;
+}

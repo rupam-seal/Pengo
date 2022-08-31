@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+#total-orders{
+    background-color: #303235;
+}
+
+
+#orders-delivered{
+    background-color: #303235;
+}
+
+#orders-pending{
+    background-color: #303235;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.update, .delete, .view {
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.update, .view {
+    background-color: rgb(0, 197, 85);
+}
+
+.delete {
+    background-color: rgb(212, 20, 20);
+}
+
+.update:focus, .view:focus {
+    outline: solid;
+    outline-color: rgba(85, 255, 159, 0.799);
+    outline-width: 3px;
+}
+
+.delete:focus {
+    outline: solid;
+    outline-color: rgba(255, 148, 148, 0.927);
+    outline-width: 3px;
+}
